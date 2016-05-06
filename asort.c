@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char asort(const char * a, const char * b ) {
+int asort(const char * a, const char * b ) {
     return *(char*)b - *(char*)a;
 }
 int main() {
